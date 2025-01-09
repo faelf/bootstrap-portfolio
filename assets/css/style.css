@@ -23,6 +23,17 @@ h1, h2 {
     border-radius: 0;
 }
 
+.btn {
+    border-color: #1f7798;
+    background-color: #fff;
+    color: #1f7798;
+}
+
+.btn:hover {
+    background-color: #1f7798;
+    color: #FFF;
+}
+
 /* Header */
 
 #hero {
@@ -69,6 +80,11 @@ h1, h2 {
 
 #contact {
     background-color: #fff;
+    padding-bottom: 100px;
+}
+
+#contact form {
+    color: #1d6d8a;
 }
 
 @media screen and (min-width: 992px) {
